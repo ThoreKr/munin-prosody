@@ -45,6 +45,7 @@ After the installation you need to restart your munin-node:
 
 Configuration
 -------------
+Make sure that the admin_telnet module is enabled in /etc/prosody/prosody.cfg.lua
 
 When you want to change the default host (localhost) and port (5582) than you can change this in the **/etc/munin/plugin-conf.d/munin-node** config file like this:
 
